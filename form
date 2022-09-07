@@ -6,91 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admission Form</title>
     <style>
+        body{
+            font-family:'Courier New', Courier, monospace;
+            width: 21cm;
+            height: 29.7cm;
+            margin: 5mm 20mm 60m;
+       } 
         .rd{
             text-align:right;
             font-size: 15px;
         }
-        body{
-            font-family: 'Courier New', Courier, monospace;
-            width: 21cm;
-            height: 29.7cm;
-            margin: 5mm 20mm 60m; 
-            /* change the margins as you want them to be. */
-       } 
-       .left1{
-        float: left;
-       }
-       .right1{
-        float:right;
-       }
-       .left2{
-        float: left;
-       }
-       .middle{
-        padding-top: 68px;
-        padding-left: 35%;
-       }
-       .right2{
-        float:right;
-        padding-top:0px;
-        padding-left: 35%;
+        .center{
+            text-align:center;
+        }
+       .align{
+        padding-left:3%;
        }
        .nav1 li {
         text-align: left;
         display: inline-block;
-        padding-inline-end: 4.5%;
-
+        padding-inline-end: 2%;
       }
        .nav2 li {
         text-align: left;
         display: inline-block;
         padding-inline-end: 10%;
       }
-    .box{
-        width: 87%;
+       .box{ 
+        width: 90%;
         height: 100%;
-        padding: 3%;
+        padding: 2%;
     }
     table, th, td {
-        border:.5px solid black;
+        border:1px solid black;
         border-collapse: collapse;
         padding-left: 10px;
         padding-right: 10px;
-        max-width: max-content;
         padding: 5px;
       }
       .table input{
-        width: max-content;
-      }
-      .last{
-        text-align: center;
-      }
-     
+        width:max-content;
+      }     
     </style>
 </head>
 <body>
-   <h1 style="text-align:center;">Burdwan Institute of Management and Computer Science</h1>
-   <h3 style="text-align:center;"> BCA(H)</h3>
+   <h1 class="center">Burdwan Institute of Management and Computer Science</h1>
+   <h3 class="center"> BCA(H)</h3>
     <p class="rd">Registration Date <input type="date"></p>
     <h3>Fill in the Basic Information:</h3>
-    <p style="padding-left:5%;">Name:&ensp;<input type="text" size="93"></p>
-    <p style="padding-left:5%;">Father's Name:&ensp;<input type="text" size="80"></p>
-    <p style="padding-left:5%;">Mother's Name:&ensp;<input type="text" size="80"></p>
-         <ul class="nav1">
-            <li>Email:&ensp;<input type="email" size="28"></li>
-            <li>Phone Number:&ensp;<input type="text" size="29"></li> 
-         </ul>
+<div class="align">
+    <p>Name:&ensp;<input type="text" size="93"></p>
+    <p>Father's Name:&ensp;<input type="text" size="80"></p>
+    <p>Mother's Name:&ensp;<input type="text" size="80"></p>
+</div>
+        <ul class="nav1">
+            <li>Email:&ensp;<input type="email" size="30"></li>
+            <li>Phone Number:&ensp;<input type="text" size="30"></li> 
+        </ul>
         <ul class="nav2"> 
             <li>Gender:&ensp;<input type="checkbox">M<input type="checkbox">F</li> 
             <li>Religion:&ensp;<input type="text" size="5"></li> 
             <li>Nationality:&ensp;<input type="text" size="5"></li> 
         </ul>
+
     <h3>Fill in Contact Information:</h3>
+<div class="align">
     <p>Permanent Address:<br></p>
     <p><input type="text" class="box"></p>
     <p>Present Address:<br></p>
     <p><input type="text" class="box"></p>
+</div>
     <h3>Fill in Educational Information:</h3>
+<div class="align">
     <table>
         <tr>
             <td>Name of Examination</td>
@@ -114,14 +101,14 @@
             <td><input type="text" size="10" ></td>
         </tr>
     </table>
+</div>
     <h3>Additional Information:</h3>
+    <div class="align"> 
     <p>Physical Disability?&ensp;<input type="checkbox">Yes&ensp;<input type="checkbox">No</p>
     <p>Any Allergy?&ensp;<input type="checkbox">Yes&ensp;<input type="checkbox">No</p>
     <p>if yes:<br><input type="text" size="100" style="padding: 15px;"></p>
-    <p>I do hereby declare that all the statement given by me are to and written to the best of my knowledge</p>
-    <p class="right1">Signature of Candidate</p><br>
-    <p class="last"><input type="submit"></p>
-
-  
+    <p>I do hereby declare that all the statement given by me are to and written <br> to the best of my knowledge.</p><br>
+    <p class="rd">Signature of Candidate</p>
+    <p class="center"><input type="submit"></p>
 </body>
 </html>
