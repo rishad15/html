@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+        body{
+            font-family: 'Orbitron', sans-serif;
+            font-size: 15px;
+            height: max-content;
+            width: max-content;
+            padding: 10px;
+            font-size: 15px;
+
+        }
+        fieldset{
+            background-color: black;
+        }
+        legend{
+            color: aliceblue;
+        }
+        input{
+            font-family: 'Orbitron', sans-serif;
+            background-color:darkgray; 
+        }
+        textarea{
+            background-color: darkgray;
+            width: 315px;
+            height: 100px;
+
+        }
+        .display{
+            display: inline-block;
+        }
+        .align{
+            text-align: center;
+            padding: 3px;
+        }
+        .left{
+            padding-left: 0%;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <fieldset>
+
+        <legend style="text-align:center;"><h4>Calculator</h4></legend>
+        <textarea></textarea><br>
+        <ul class="left">
+            <li class ="display"><input type="text" size="6" value="(" class ="align"></li>
+            <li class ="display"><input type="text" size="6" value=")" class ="align"></li>
+            <li class ="display"><input type="text" size="6" value="%" class ="align"></li>
+            <li class ="display"><input type="text" size="6" value="AC" class ="align"></li>
+        </ul>
+        <ul class="left">
+            <li class ="display"><input type="text" size="6" value="7" class ="align"></li>
+            <li class ="display"><input type="text" size="6" value="8" class ="align"></li>
+            <li class ="display"><input type="text" size="6" value="9" class ="align"></li>
+            <li class ="display"><input type="text" size="6" value="÷" class ="align"></li>
+        </ul>
+        <ul class="left">
+            <li class ="display"><input type="text" size="6" value="4" class ="align"></li>
+            <li class ="display"><input type="text" size="6" value="5" class ="align"></li>
+            <li class ="display"><input type="text" size="6" value="6" class ="align"></li>
+            <li class ="display"><input type="text" size="6" value="×" class ="align"></li>
+        </ul>
+        <ul class="left">
+            <li class ="display"><input type="text" size="6" value="1" class ="align"></li>
+            <li class ="display"><input type="text" size="6" value="2" class ="align"></li>
+            <li class ="display"><input type="text" size="6" value="3" class ="align"></li>
+            <li class ="display"><input type="text" size="6" value="-" class ="align"></li>
+        </ul>
+        <ul class="left">
+            <li class ="display"><input type="text" size="6" value="0" class ="align"></li>
+            <li class ="display"><input type="text" size="6" value="." class ="align"></li>
+            <li class ="display"><input type="text" size="6" value="=" class ="align"></li>
+            <li class ="display"><input type="text" size="6" value="+" class ="align"></li>
+        </ul>
+    </fieldset>
+</fieldset>
+</body>
