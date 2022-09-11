@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+        body{
+            font-family: 'Josefin Sans', sans-serif;
+            background-image: url(howrah_bridge.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #FFFFFF;
+            font-size: 16px;
+        }
+        .center{
+            font-family: 'Smooch', cursive;
+            text-align: center;
+            color: aliceblue;
+            font-size: 50px;
+        }
+        marquee{
+            color: aliceblue;
+            font-size: 20px;
+            
+        }
+        select{
+            border: 2px black;
+            background-color: transparent;
+            color: aliceblue;
+            font-size: 18px;
+            
+        }
+        .rd{
+            text-align:center;
+            font-size: 18px;
+                
+           }    
+           .back{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 16px;
+            padding: 1%;
+            background: rgb(0, 0, 0); /* Fallback color */
+            background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+           }
+           .display{
+            display: inline-block;
+           }
+    </style>
+
+</head>
+<body>
+    <h1 class="center">Calcutta Tourism. . . </h1>
+    <marquee>Thank you!!! Visit Again.</marquee>
+    <div class="rd">
+        <select>
+            <option>Select location</option>
+            <option>North Kolkata</option>
+            <option>Central Kolkata</option>
+            <option>South Kolkata</option>
+        </select>
+    </div>
+    <div class="back">
+        <h4 class="rd"><u>About Kolkata</u></h4>
+
+        <p>Kolkata is not just another metropolitan of India, it is a city with a soul. Perfectly named the city of joy, Kolkata has a blend of history, culture, art, colonial architecture, enthusiasm,
+            and incredible sweet delicacies.  Here modernity connects to traditional roots, defining opulence.
+            There are countless reasons that can make you feel mesmerized by the charm and
+            energy of this city. With every street of the city having some stories to tell, from North to South, here in Kolkata you can find unity in diversity</p>
+        <ol>
+            Top 3 Places to Visit in North Kolkata:
+            <li>College Street</li>
+            <li>Jorasanko Thakurbari</li>
+            <li>Sovabazar Rajbari</li>
+        </ol>
+        <ul>
+            Top 3 Places to Visit in South Kolkata:
+            <li>Temples: Kalighat & Birla</li>
+            <li>Victoria Memorial</li>
+            <li>The National Library of India</li>
+        </ul>
+    </div>
+    <ul style="text-align: center;">
+        <li class="display" ><a href="portal.html">About The Portal</a> |</li>
+        <li class="display"><a href="copuright.html">Copyright Policy</a> |</li>
+        <li class="display"><a href="terms.html">Terms of Use</a> |</li>
+        <li class="display"><a href="feedback.html">Feedback</a> |</li>
+        <li class="display"><a href="Contact.html">Contact Us</a> </li>
+    </ul>
+
+</body>
