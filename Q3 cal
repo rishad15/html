@@ -25,6 +25,8 @@
         input{
             font-family: 'Orbitron', sans-serif;
             background-color:darkgray; 
+            text-align: center;
+            padding: 3px;
         }
         textarea{
             background-color: darkgray;
@@ -32,15 +34,11 @@
             height: 100px;
 
         }
-        .display{
-            display: inline-block;
-        }
-        .align{
-            text-align: center;
-            padding: 3px;
-        }
-        .left{
+        ul{
             padding-left: 0%;
+        }
+        ul li{
+            display: inline-block;
         }
     </style>
 </head>
@@ -50,35 +48,35 @@
 
         <legend style="text-align:center;"><h4>Calculator</h4></legend>
         <textarea></textarea><br>
-        <ul class="left">
-            <li class ="display"><input type="text" size="6" value="(" class ="align"></li>
-            <li class ="display"><input type="text" size="6" value=")" class ="align"></li>
-            <li class ="display"><input type="text" size="6" value="%" class ="align"></li>
-            <li class ="display"><input type="text" size="6" value="AC" class ="align"></li>
+        <ul>
+            <li><input type="text" size="6" value="("></li>
+            <li><input type="text" size="6" value=")"></li>
+            <li><input type="text" size="6" value="%"></li>
+            <li><input type="text" size="6" value="AC"></li>
         </ul>
-        <ul class="left">
-            <li class ="display"><input type="text" size="6" value="7" class ="align"></li>
-            <li class ="display"><input type="text" size="6" value="8" class ="align"></li>
-            <li class ="display"><input type="text" size="6" value="9" class ="align"></li>
-            <li class ="display"><input type="text" size="6" value="÷" class ="align"></li>
+        <ul >
+            <li><input type="text" size="6" value="7"></li>
+            <li><input type="text" size="6" value="8"></li>
+            <li><input type="text" size="6" value="9"></li>
+            <li><input type="text" size="6" value="&divide;"></li>
         </ul>
-        <ul class="left">
-            <li class ="display"><input type="text" size="6" value="4" class ="align"></li>
-            <li class ="display"><input type="text" size="6" value="5" class ="align"></li>
-            <li class ="display"><input type="text" size="6" value="6" class ="align"></li>
-            <li class ="display"><input type="text" size="6" value="×" class ="align"></li>
+        <ul >
+            <li><input type="text" size="6" value="4"></li>
+            <li><input type="text" size="6" value="5"></li>
+            <li><input type="text" size="6" value="6"></li>
+            <li><input type="text" size="6" value="&times;"></li>
         </ul>
-        <ul class="left">
-            <li class ="display"><input type="text" size="6" value="1" class ="align"></li>
-            <li class ="display"><input type="text" size="6" value="2" class ="align"></li>
-            <li class ="display"><input type="text" size="6" value="3" class ="align"></li>
-            <li class ="display"><input type="text" size="6" value="-" class ="align"></li>
+        <ul >
+            <li><input type="text" size="6" value="1"></li>
+            <li><input type="text" size="6" value="2"></li>
+            <li><input type="text" size="6" value="3"></li>
+            <li><input type="text" size="6" value="-"></li>
         </ul>
-        <ul class="left">
-            <li class ="display"><input type="text" size="6" value="0" class ="align"></li>
-            <li class ="display"><input type="text" size="6" value="." class ="align"></li>
-            <li class ="display"><input type="text" size="6" value="=" class ="align"></li>
-            <li class ="display"><input type="text" size="6" value="+" class ="align"></li>
+        <ul>
+            <li><input type="text" size="6" value="0"></li>
+            <li><input type="text" size="6" value="."></li>
+            <li><input type="text" size="6" value="="></li>
+            <li><input type="text" size="6" value="+"></li>
         </ul>
     </fieldset>
 </fieldset>
