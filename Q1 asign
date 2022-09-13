@@ -28,29 +28,32 @@
             
         }
         select{
-            border: 2px black;
-            background-color: transparent;
+            border: 0px;
+            background:transparent;
             color: aliceblue;
             font-size: 18px;
             
         }
+        select option{
+            background-color: black;
+        }
         .rd{
             text-align:center;
-            font-size: 18px;
-                
+            font-size: 18px;   
            }    
-           .back{
+        .back{
             font-family: 'Josefin Sans', sans-serif;
             font-size: 16px;
             padding: 1%;
-            background: rgb(0, 0, 0); /* Fallback color */
             background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
            }
-           .display{
+        .display li{
             display: inline-block;
            }
+        .display{
+            text-align: center;
+        }
     </style>
-
 </head>
 <body>
     <h1 class="center">Calcutta Tourism. . . </h1>
@@ -83,12 +86,11 @@
             <li>The National Library of India</li>
         </ul>
     </div>
-    <ul style="text-align: center;">
-        <li class="display" ><a href="portal.html">About The Portal</a> |</li>
-        <li class="display"><a href="copuright.html">Copyright Policy</a> |</li>
-        <li class="display"><a href="terms.html">Terms of Use</a> |</li>
-        <li class="display"><a href="feedback.html">Feedback</a> |</li>
-        <li class="display"><a href="Contact.html">Contact Us</a> </li>
+    <ul class="display">
+        <li><a href="portal.html">About The Portal</a> |</li>
+        <li><a href="copuright.html">Copyright Policy</a> |</li>
+        <li><a href="terms.html">Terms of Use</a> |</li>
+        <li><a href="feedback.html">Feedback</a> |</li>
+        <li><a href="Contact.html">Contact Us</a> </li>
     </ul>
-
 </body>
